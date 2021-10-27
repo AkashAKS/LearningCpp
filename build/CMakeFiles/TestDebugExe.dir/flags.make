@@ -4,7 +4,7 @@
 # compile CXX with D:/Software_Installed/MinGW_64/mingw64/bin/g++.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = @CMakeFiles/my_printer.dir/includes_CXX.rsp
+CXX_INCLUDES = 
 
-CXX_FLAGS = 
+CXX_FLAGS = -g
 

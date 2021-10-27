@@ -1,0 +1,3 @@
+D:\Software_Installed\CMake_3_21\bin\cmake.exe -E rm -f CMakeFiles\TestDebugExe.dir/objects.a
+D:\Software_Installed\MinGW_64\mingw64\bin\ar.exe qc CMakeFiles\TestDebugExe.dir/objects.a @CMakeFiles\TestDebugExe.dir\objects1.rsp
+D:\Software_Installed\MinGW_64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\TestDebugExe.dir/objects.a -Wl,--no-whole-archive -o TestDebugExe.exe -Wl,--out-implib,libTestDebugExe.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\TestDebugExe.dir\linklibs.rsp

@@ -116,37 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named printer
+# Target rules for targets named TestDebugExe
 
 # Build rule for target.
-printer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 printer
-.PHONY : printer
+TestDebugExe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 TestDebugExe
+.PHONY : TestDebugExe
 
 # fast build rule for target.
-printer/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\printer.dir\build.make CMakeFiles/printer.dir/build
-.PHONY : printer/fast
-
-#=============================================================================
-# Target rules for targets named my_printer
-
-# Build rule for target.
-my_printer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 my_printer
-.PHONY : my_printer
-
-# fast build rule for target.
-my_printer/fast:
-	$(MAKE) $(MAKESILENT) -f HelloWorldPrint\CMakeFiles\my_printer.dir\build.make HelloWorldPrint/CMakeFiles/my_printer.dir/build
-.PHONY : my_printer/fast
+TestDebugExe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestDebugExe.dir\build.make CMakeFiles/TestDebugExe.dir/build
+.PHONY : TestDebugExe/fast
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\printer.dir\build.make CMakeFiles/printer.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestDebugExe.dir\build.make CMakeFiles/TestDebugExe.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -154,7 +141,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\printer.dir\build.make CMakeFiles/printer.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestDebugExe.dir\build.make CMakeFiles/TestDebugExe.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -162,7 +149,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\printer.dir\build.make CMakeFiles/printer.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TestDebugExe.dir\build.make CMakeFiles/TestDebugExe.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -173,8 +160,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... my_printer
-	@echo ... printer
+	@echo ... TestDebugExe
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

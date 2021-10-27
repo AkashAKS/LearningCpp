@@ -1,2 +1,2 @@
-# Empty dependencies file for printer.
+# Empty dependencies file for TestDebugExe.
 # This may be replaced when dependencies are built.

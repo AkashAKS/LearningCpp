@@ -8,12 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/Dev_Works/Cpp/ModernCpp/LearningCpp/main.cpp" "CMakeFiles/printer.dir/main.cpp.obj" "gcc" "CMakeFiles/printer.dir/main.cpp.obj.d"
+  "E:/Dev_Works/Cpp/ModernCpp/LearningCpp/main.cpp" "CMakeFiles/TestDebugExe.dir/main.cpp.obj" "gcc" "CMakeFiles/TestDebugExe.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "E:/Dev_Works/Cpp/ModernCpp/LearningCpp/build/HelloWorldPrint/CMakeFiles/my_printer.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

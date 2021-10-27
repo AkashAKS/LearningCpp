@@ -1,2 +1,0 @@
-D:\Software_Installed\MinGW_64\mingw64\bin\ar.exe qc libmy_printer.a CMakeFiles/my_printer.dir/src/HelloSrc.cpp.obj
-D:\Software_Installed\MinGW_64\mingw64\bin\ranlib.exe libmy_printer.a

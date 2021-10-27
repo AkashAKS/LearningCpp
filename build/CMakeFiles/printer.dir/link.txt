@@ -1,3 +1,0 @@
-D:\Software_Installed\CMake_3_21\bin\cmake.exe -E rm -f CMakeFiles\printer.dir/objects.a
-D:\Software_Installed\MinGW_64\mingw64\bin\ar.exe qc CMakeFiles\printer.dir/objects.a @CMakeFiles\printer.dir\objects1.rsp
-D:\Software_Installed\MinGW_64\mingw64\bin\g++.exe -Wl,--whole-archive CMakeFiles\printer.dir/objects.a -Wl,--no-whole-archive -o printer.exe -Wl,--out-implib,libprinter.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\printer.dir\linklibs.rsp
